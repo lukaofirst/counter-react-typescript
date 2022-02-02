@@ -1,7 +1,12 @@
-import './App.css';
+import { Fragment } from 'react';
+import Counter from './components/Counter';
 
 function App() {
-    return <div className='App'></div>;
+    return (
+        <Fragment>
+            <Counter />
+        </Fragment>
+    );
 }
 
 export default App;
