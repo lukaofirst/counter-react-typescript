@@ -19,9 +19,9 @@ export const btnActions = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    'flex-wrap': 'wrap',
+    flexWrap: 'wrap',
     margin: '20px',
-};
+} as React.CSSProperties;
 
 export const btn = {
     display: 'flex',
